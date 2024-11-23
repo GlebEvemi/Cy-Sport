@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gym_fill">#77b0f0</color>
+    <color name="sport_club_fill">#8ec986</color>
+    <color name="pull_bar_fill">#f3836b</color>
+    <color name="theme_color">#ebe3cd</color>
+</resources>

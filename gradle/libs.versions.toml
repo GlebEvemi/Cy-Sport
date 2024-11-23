@@ -1,0 +1,37 @@
+[versions]
+agp = "8.7.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+mapsSecret = "2.0.1"
+material = "1.12.0"
+activity = "1.9.3"
+googleMaps = "17.0.0"
+constraintlayout = "2.2.0"
+roundedImage = "2.3.0"
+volley_ver = "1.2.1"
+glide_ver = "4.16.0"
+jackson_ver = "2.0.1"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+google-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "googleMaps" }
+rounded-image = { group = "com.makeramen", name = "roundedimageview", version.ref = "roundedImage" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley_ver" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide_ver" }
+jackson = { group = "com.fasterxml.jackson.core", name = "jackson-databind", version.ref = "jackson_ver" }
+
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+map-secret = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "mapsSecret" }
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cy Sport</string>
+    <string name="location_permission_denied">We need your location for better experience!</string>
+    <string name="permission_required_toast">Location permission is required.</string>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="Specialized_sports_facilities">Specialized Sports Facilities</string>
+    <string name="Indoor_logo">Indoor Sports</string>
+    <string name="desc">AESTHETICS is a branch of philosophy dealing with the nature of beauty, art, and taste, and with the creation and appreciation of beauty. Some define aesthetics as the "critical reflection on art, culture and nature". Here at Aesthetics Fitness Club we strive to achieve perfection in the art of fitness.</string>
+    <string name="Outdoor_sports_areas">Outdoor Sports Areas</string>
+</resources>
